@@ -13,7 +13,7 @@ function FeatureCard({ icon: Icon, title, description }: { icon: any, title: str
 
 function App() {
   const handlePortalAccess = () => {
-    window.location.href = "https://hub.injective.network/";
+    window.location.href = "https://tradingagent.vercel.app/";
   };
 
   return (
