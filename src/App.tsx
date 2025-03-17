@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, Wallet, BarChart2, Database, Shield, Gavel, Coins, Settings } from 'lucide-react';
 
 function FeatureCard({ icon: Icon, title, description }: { icon: any, title: string, description: string }) {
@@ -24,7 +23,7 @@ function App() {
         <div className="container mx-auto px-4 py-24 relative">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-6xl font-bold text-white mb-6">
-              Injective Trade Agent
+            ByteTrader
             </h1>
             <p className="text-xl text-gray-300 mb-8">
               Your comprehensive portal to the Injective Chain ecosystem. Execute trades, manage assets, and navigate the decentralized future with confidence.
